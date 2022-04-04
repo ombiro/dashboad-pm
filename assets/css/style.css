@@ -244,3 +244,50 @@ Secondary Statistics
         margin-top: 15px;
     }
 }
+
+@media only screen and (min-width: 1024px){
+    .dashboard .navigation,
+    .dashboard .navigation div span,
+    section.secondary{
+        display: block;
+    }
+    .dashboard .navigation{
+        width: 60px;
+        position: fixed;
+        z-index: 10;
+    }
+    section.main{
+        width:65%;
+        margin-left: 90px;
+        margin-right: 20px;
+    }
+    section.secondary{
+        width:27%;
+        padding-top: 0%;
+        position: fixed;
+        top: 20px;
+        right: 0px;
+        background-color: transparent;
+    }
+    section.secondary .chart,
+    section.secondary .recent_projects{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .dashboard.navigation div{
+        margin-top: 19vh;
+        margin-bottom: 19vh; 
+    }
+    .dashboard.navigation div span{
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (min-width: 1111px){
+    section.main .project_list .project{
+        width: 32%;
+    }
+    section.main{
+        width: 65%;
+    }
+}
